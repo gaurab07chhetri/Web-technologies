@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    padding-left:20px;
+    padding:20px;
+    color:white;
+    font-size: 60px;
+    text-align:left;
+    text-indent: 75px;
+}
+p{
+    margin:50px;
+    padding-left: 20px;
+    color:white;
+    font-size: 20px;
+    text-transform:none;
+    text-align: left;
+}
+
+
+.parent{
+    width:100%;
+    height:100%;
+}
+
+.son{
+    background-color: rgb(8, 54, 41);
+    height: 100vh;
+    float:right;
+}
+.daughter{
+    float:left;
+}
+.son,.daughter{
+    width:50%;
+      
+}
+
+.daughter img{
+    height: 100vh;
+    width: 100%;
+}
+
+/*mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body,html{
+        height: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+        padding-left:50px;
+        padding:10px;
+        color:white;
+        font-size: 20px;
+        text-align:left;
+        text-indent: 50px;
+    }
+    p{
+        margin:20px;
+        padding-left: 20px;
+        color:white;
+        font-size: 10px;
+        text-transform:none;
+        text-align: left;
+    }
+    
+    
+    .parent{
+        width:100%;
+        height:100%;
+    }
+    
+    .son{
+        background-color: rgb(8, 54, 41);
+        height: 50%;
+        float:right;
+    }
+    .daughter{
+        float:left;
+    }
+    .son,.daughter{
+        width:100%;
+          
+    }
+    
+    .daughter img{
+        height: 50vh;
+        width: 100%;
+    }
+    
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body,html{
+        height: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+        padding-left:20px;
+        padding:30px;
+        color:white;
+        font-size: 40px;
+        text-align:center;
+        text-indent: 15px;
+    }
+    p{
+        margin:30px;
+        padding: 15px;
+        padding-left: 30px;
+        color:white;
+        font-size: 15px;
+        text-transform:none;
+        text-align: left;
+    }
+    
+    
+    .parent{
+        width:100%;
+        height:100%;
+    }
+    
+    .son{
+        background-color: rgb(8, 54, 41);
+        height: 100vh;
+        float:right;
+    }
+    .daughter{
+        float:left;
+    }
+    .son,.daughter{
+        width:50%;
+          
+    }
+    
+    .daughter img{
+        height: 100vh;
+        width: 100%;
+    }
+    
+}
+
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body,html{
+        height: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+        padding-left:20px;
+        padding:20px;
+        color:white;
+        font-size: 60px;
+        text-align:left;
+        text-indent: 75px;
+    }
+    p{
+        margin:50px;
+        padding-left: 20px;
+        color:white;
+        font-size: 20px;
+        text-transform:none;
+        text-align: left;
+    }
+    
+    
+    .parent{
+        width:100%;
+        height:100%;
+    }
+    
+    .son{
+        background-color: rgb(8, 54, 41);
+        height: 100vh;
+        float:right;
+    }
+    .daughter{
+        float:left;
+    }
+    .son,.daughter{
+        width:50%;
+          
+    }
+    
+    .daughter img{
+        height: 100vh;
+        width: 100%;
+    }
+    
+    }
